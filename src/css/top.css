@@ -1,0 +1,97 @@
+#top { background-color: #EFEFEF; }
+
+#top .container { font-size: 14px; line-height: 36px; overflow: hidden; }
+
+#top .container #top_l { float: left; }
+
+#top .container #top_l p { margin: 0; position: relative; }
+
+#top .container #top_l p a { margin-left: 5px; color: black; text-decoration: none; }
+
+#top .container #top_l p a i { color: #ACACAC; padding-left: 22px; padding-right: 4px; }
+
+#top .container #top_l p a .topfs { margin-left: 22px; }
+
+#top .container #top_l p a:hover { color: #FF3D3B; }
+
+#top .container #top_l p a:hover i { color: #FF3D3B; }
+
+#top .container #top_r { float: right; }
+
+#top .container #top_r ul li { float: left; padding: 0 15px; }
+
+#top .container #top_r ul li a { color: black; text-decoration: none; }
+
+#top .container #top_r ul li a i { margin-right: 3px; color: #ACACAC; }
+
+#top .container #top_r ul li a:hover { color: #FF3D3B; }
+
+#top .container #top_r ul li a:hover i { color: #FF3D3B; }
+
+#top .container #top_r ul .topcar { padding: 2px 10px; background-color: #FF3D3B; margin-top: 4px; line-height: 22px; }
+
+#top .container #top_r ul .topcar a i { color: white; }
+
+#top .container #top_r ul .topcar a:hover { color: #FFF; }
+
+#top .container #top_r ul .topcar a:hover i { color: #FFF; }
+
+#name .container #namel { float: left; overflow: hidden; }
+
+#name .container #namel h1 { width: 238px; height: 154px; background: url("../img/namelogo.png"); text-indent: -1000px; margin: 0; }
+
+#name .container #namec { float: left; padding-top: 36px; padding-left: 98px; }
+
+#name .container #namec p { color: #CB0955; }
+
+#name .container #namec .search { width: 436px; height: 36px; border: 1px solid #FF3D3B; padding-left: 14px; }
+
+#name .container #namec .btn { width: 136px; height: 36px; background: #FF3D3B; color: white; border-radius: 0; margin-left: -4px; margin-top: -2px; }
+
+#name .container #namec span { color: #999999; font-size: 14px; float: left; line-height: 32px; }
+
+#name .container #namec ul { float: left; line-height: 32px; margin-left: 8px; }
+
+#name .container #namec ul li { float: left; margin-left: 5px; }
+
+#name .container #namec ul li a { color: #999999; text-decoration: none; }
+
+#name .container #namec ul li:hover a { color: #FF3D3B; }
+
+#name .container #namer { float: right; width: 417px; height: 154px; background: url("../img/namepic.png"); }
+
+#nav .container #navt { height: 43px; border-bottom: 1px solid #CB0955; }
+
+#nav .container #navt h3 { float: left; position: relative; width: 238px; height: 43px; background: #FF3D3B; color: white; font-size: 18px; line-height: 43px; text-align: center; margin: 0; }
+
+#nav .container #navt h3 i { position: absolute; right: 18px; top: 15px; }
+
+#nav .container #navt h3 .nav2 { position: absolute; width: 238px; margin: 0; font-size: 20px; text-align: center; background: black; opacity: 0.9; }
+
+#nav .container #navt h3 .nav2 > li { padding: 9px 0 10px 0; }
+
+#nav .container #navt h3 .nav2 > li a { z-index: 100; color: white; text-decoration: none; position: relative; }
+
+#nav .container #navt h3 .nav2 > li a i { position: absolute; left: -104px; top: -10px; color: white; font-size: 22px; }
+
+#nav .container #navt h3 .nav2 > li a .jiantou { right: -264px; top: 2px; color: black; }
+
+#nav .container #navt h3 .nav2 > li .nav2_1 { display: none; background: black; z-index: 100; width: 680px; height: 488px; background: white; opacity: 0.9; position: absolute; left: 238px; top: 0; padding-left: 24px; padding-top: 27px; }
+
+#nav .container #navt h3 .nav2 > li .nav2_1 dl { text-align: left; overflow: hidden; }
+
+#nav .container #navt h3 .nav2 > li .nav2_1 dl dd a { color: #6F6F6F; font-size: 16px; }
+
+#nav .container #navt h3 .nav2 > li .nav2_1 dl dt a { color: #9D9D9D; font-size: 14px; margin-right: 12px; }
+
+#nav .container #navt h3 .nav2 li:hover { background: white; }
+
+#nav .container #navt h3 .nav2 li:hover .nav2_1 { display: block; }
+
+#nav .container #navt h3 .nav2 li:hover a, #nav .container #navt h3 .nav2 li:hover i { color: red; }
+
+#nav .container #navt .nav1 { float: left; margin: 0; }
+
+#nav .container #navt .nav1 li { float: left; position: relative; }
+
+#nav .container #navt .nav1 li a { font-size: 18px; line-height: 43px; text-align: center; padding: 0 25px; color: black; text-decoration: none; }

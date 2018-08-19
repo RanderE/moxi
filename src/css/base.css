@@ -1,0 +1,39 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	/*box-sizing: border-box;*/
+}
+ul li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+.container{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+input{
+	border: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    height:0;
+    overflow:hidden;
+    clear:both;
+    visibility: hidden;
+    zoom:1;
+}
+
