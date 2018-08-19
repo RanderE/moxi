@@ -1,0 +1,39 @@
+#links { border-top: 3px solid #FF3D3B; overflow: hidden; background: #EFEFEF; }
+
+#links .container { padding-top: 32px; overflow: hidden; height: 268px; }
+
+#links .container .linksl { width: 949px; }
+
+#links .container .linksl dl { text-align: center; width: 19.9%; float: left; }
+
+#links .container .linksl dl dt { border-right: 1px solid #ccc; font-weight: bold; font-size: 20px; margin-bottom: 29px; color: #333333; }
+
+#links .container .linksl dl .lnkl { border-right: none; }
+
+#links .container .linksl dl dd { line-height: 26px; }
+
+#links .container .linksl dl dd a { color: #333333; }
+
+#links .container #lnkline { width: 1px; height: 204px; background: #ccc; float: left; }
+
+#links .container .linksc { width: 259px; text-align: center; padding: 0 20px; }
+
+#links .container .linksc h4 { font-size: 20px; line-height: 36px; }
+
+#links .container .linksc p { line-height: 24px; }
+
+#links .container .linksr { text-align: center; }
+
+#links .container .linksr h4 { line-height: 36px; font-size: 20px; }
+
+#links .container .linksr p { line-height: 26px; }
+
+#special { background: #CCCCCC; }
+
+#bottom { text-align: center; height: 208px; }
+
+#bottom p { line-height: 62px; }
+
+#bottom p img { padding-left: 4px; }
+
+#bottom .btmimg img { width: 178px; height: 55px; margin: 0 22px; }
