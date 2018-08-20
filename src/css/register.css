@@ -22,10 +22,46 @@ h2 { font-size: 30px; line-height: 66px; text-align: center; color: #999999; }
 
 #form .container #form_r { width: 760px; float: right; }
 
-#form .container #form_r p { text-align: center; }
+#form .container #form_r p { text-align: center; margin-bottom: 20px; }
 
 #form .container #form_r p button { width: 126px; height: 42px; background: white; outline: none; }
 
 #form .container #form_r p .mail-btn { border: 1px solid #ccc; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-right: none; }
 
 #form .container #form_r p .phone-btn { border: 1px solid #ccc; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-left: none; margin-left: -5px; }
+
+#form .container #form_r #formM { display: none; }
+
+#form .container #form_r #formM label { display: inline-block; width: 176px; text-align: right; padding-right: 12px; color: #333; }
+
+#form .container #form_r #formM input { width: 416px; height: 40px; border: 1px solid #ccc; margin-bottom: 18px; padding-left: 26px; font-size: 20px; color: #777; }
+
+#form .container #form_r #formM p { text-align: left; margin-top: -16px; display: block; margin-left: 192px; width: 400px; color: #333; }
+
+#form .container #form_r #formM #mchecknum { width: 155px; }
+
+#form .container #form_r #formM #mcheckbox { width: 30px; height: 30px; margin-left: 198px; vertical-algin: middle; }
+
+#form .container #form_r #formM #mshowCode { border: 1px solid #f60; background-color: #fc0; padding: 7px 25px; font-size: 20px; }
+
+#form .container #form_r #formM .magree { vertical-algin: middle; padding-left: 4px; }
+
+#form .container #form_r #formM #mlogin { width: 416px; height: 40px; font-size: 22px; border: 1px solid #ccc; background: white; margin-left: 188px; margin-bottom: 192px; }
+
+#form .container #form_r #formP label { display: inline-block; width: 176px; text-align: right; padding-right: 12px; color: #333; }
+
+#form .container #form_r #formP input { width: 416px; height: 40px; border: 1px solid #ccc; margin-bottom: 18px; padding-left: 26px; font-size: 20px; color: #777; }
+
+#form .container #form_r #formP p { text-align: left; margin-top: -16px; display: block; margin-left: 192px; width: 400px; color: #333; }
+
+#form .container #form_r #formP #pchecknum { width: 155px; }
+
+#form .container #form_r #formP #precknum { width: 155px; }
+
+#form .container #form_r #formP #pshowCode { border: 1px solid #f60; background-color: #fc0; height: 40px; }
+
+#form .container #form_r #formP #pcheckbox { width: 30px; height: 30px; margin-left: 198px; vertical-algin: middle; }
+
+#form .container #form_r #formP .pagree { vertical-algin: middle; padding-left: 4px; }
+
+#form .container #form_r #formP #plogin { width: 416px; height: 40px; font-size: 22px; border: 1px solid #ccc; background: white; margin-left: 188px; margin-bottom: 192px; }

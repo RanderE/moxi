@@ -5,8 +5,8 @@
 	<title>register</title>
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/register.css">
-	<script src="../lib/jquery-3.3.1.js"></script>
-	<script src="../js/register.js"></script>
+	<script src="../js/require.js" data-main="../js/register"></script>
+
 </head>
 <body>
 	<div id="mhead"></div>
@@ -40,8 +40,86 @@
 						<button class="mail-btn mailBtn" >邮箱登录</button>
 						<button class="phone-btn phoneBtn">手机登陆</button>
 					</p>
-					<div id="formM"></div>
-					<div id="formP"></div>
+					<div id="formM">
+
+						<label for="emailad">请填写您的Email地址:</label>
+						<input type="text" name="email" id="emailad" class="emailad">
+						<br>
+						<p>登陆账号请认真填写</p>
+
+						<label for="mnickname">昵称:</label>
+						<input type="text" name="mnickname" id="mnickname" class="mnickname">
+						<br>
+						<p>3-10个字符,只包含数字、文字、字母</p>	
+
+						<label for="mlogpsw">请输入密码</label>
+						<input type="password" name="mlogpsw" id="mlogpsw" class="mlogpsw">
+						<br>
+						<p>6~16位字符,只能包含字母,数字或下划线</p>
+						<label for="mdblogpsw">请再次输入密码</label>
+						<input type="text" name="mdblogpsw" id="mdblogpsw" class="mdblogpsw">
+						<br>
+						<label for="mgetmtd">从何处得知我们网站:</label>
+						<input type="text" name="mgetmtd" id="mgetmtd" class="mgetmtd">
+						<br>
+						<p>从何处得知或推荐人登录邮箱。</p>	
+						<label for="checknum">请输入验证码:</label>
+						<input type="text" name="mchecknum" id="mchecknum" class="mchecknum">
+						<span id="mshowCode"></span>
+
+						<span class="mchangeNum">看不清,换一张<span>
+						<br>
+						<input type="checkbox" checked="checked" id="mcheckbox">
+						<span class="magree">我已看过并且同意《用户协议》</span>
+						<br>
+						<button id="mlogin" class="mlogin" name="mlogin">注册</button>
+					</div>
+
+
+
+
+
+
+
+
+					<div id="formP">
+						<label for="phonead">手机号码:</label>
+						<input type="text" name="phonead" id="phonead" class="phonead">
+						<br>
+						<p>手机号为登录账号,请认真填写。</p>
+
+						<label for="plogpsw">请输入密码</label>
+						<input type="password" name="plogpsw" id="plogpsw" class="plogpsw">
+						<br>
+						<p>6~16位字符,只能包含字母,数字或下划线</p>
+						<label for="pdblogpsw">请再次输入密码</label>
+						<input type="text" name="pdblogpsw" id="pdblogpsw" class="pdblogpsw">
+						<br>
+
+
+						<label for="pchecknum">图片验证码:</label>
+						<input type="text" name="pchecknum" id="pchecknum" class="pchecknum">
+						<span id="pshowCode"></span>		
+						<span class="pchangeNum">看不清,换一张<span>
+						<br>
+
+						<label for="precknum">请输入验证码:</label>
+						<input type="text" name="precknum" id="precknum" class="precknum">
+						<span></span>		
+						<span class="precheNum">获取短信验证码<span>
+						<br>	
+
+						<label for="pgetmtd">从何处得知我们网站:</label>
+						<input type="text" name="pgetmtd" id="pgetmtd" class="pgetmtd">
+						<br>
+						<p>从何处得知或推荐人登录邮箱。</p>	
+
+						<input type="checkbox" checked="checked" id="pcheckbox">
+						<span class="pagree">我已看过并且同意《用户协议》</span>
+
+						<br>
+						<button id="plogin" class="plogin" name="plogin">注册</button>
+					</div>
 
 				</div>
 				<div class="phone"></div>

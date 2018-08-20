@@ -52,8 +52,12 @@ h2{font-size: 30px;line-height: 66px;text-align:center;color:#999999;}
 		#form_r{
 			width: 760px;
 			float:right;
+			.mail{
+
+			}
 			p{
 				text-align:center;
+				margin-bottom:20px;
 				button{
 					width: 126px;
 					height: 42px;
@@ -72,6 +76,120 @@ h2{font-size: 30px;line-height: 66px;text-align:center;color:#999999;}
 					border-bottom-right-radius:10px;
 					border-left:none;
 					margin-left:-5px;
+				}
+			}
+			#formM{
+				display: none;
+				label{
+					display:inline-block;
+					width: 176px;
+					text-align:right;
+					padding-right:12px;
+					color:#333;
+				}
+				input{
+					width: 416px;
+					height: 40px;
+					border:1px solid #ccc;
+					margin-bottom:18px;
+					padding-left:26px;
+					font-size: 20px;
+					color:#777;
+				}
+				p{
+					text-align:left;
+					margin-top:-16px;
+					display:block;
+					margin-left:192px;
+					width: 400px;
+					color:#333;
+				}
+				#mchecknum{
+					width:155px;
+				}
+				#mcheckbox{
+					width: 30px;
+					height: 30px;
+					margin-left:198px;
+					vertical-algin:middle;
+				}
+				#mshowCode{
+					border:1px solid #f60;
+					background-color: #fc0;
+					padding:7px 25px;
+					font-size: 20px;
+				}
+				.magree{
+					vertical-algin:middle;
+					padding-left:4px;
+				}
+
+				#mlogin{
+					width: 416px;
+					height: 40px;
+					font-size: 22px;
+					border:1px solid #ccc;
+					background:white;
+					margin-left:188px;
+					margin-bottom:192px;
+				}
+			}
+			#formP{
+				// display: none;
+				label{
+					display:inline-block;
+					width: 176px;
+					text-align:right;
+					padding-right:12px;
+					color:#333;
+				}
+				input{
+					width: 416px;
+					height: 40px;
+					border:1px solid #ccc;
+					margin-bottom:18px;
+					padding-left:26px;
+					font-size: 20px;
+					color:#777;
+				}
+				p{
+					text-align:left;
+					margin-top:-16px;
+					display:block;
+					margin-left:192px;
+					width: 400px;
+					color:#333;
+				}
+				#pchecknum{
+					width:155px;
+				}
+
+				#precknum{
+					width:155px;
+				}
+				#pshowCode{
+					border:1px solid #f60;
+					background-color: #fc0;
+					height: 40px;
+				}
+				#pcheckbox{
+					width: 30px;
+					height: 30px;
+					margin-left:198px;
+					vertical-algin:middle;
+				}
+				.pagree{
+					vertical-algin:middle;
+					padding-left:4px;
+				}
+				#plogin{
+					width: 416px;
+					height: 40px;
+					font-size: 22px;
+					border:1px solid #ccc;
+					background:white;
+					margin-left:188px;
+					margin-bottom:192px;
 				}
 			}
 		}
