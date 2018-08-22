@@ -3,8 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>register</title>
+	<link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="../font/iconfont.css">	
 	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/top.css">
 	<link rel="stylesheet" href="../css/register.css">
+
 	<script src="../js/require.js" data-main="../js/register"></script>
 
 </head>
@@ -15,14 +20,15 @@
 			<div id="form_l">
 				<h2>登陆</h2>
 				<div id="delu-form">
-					<label for="delu-username">账号:</label>
-					<input type="text" value="手机/邮箱/用户名" id="delu-username" name="delu-username" class="delu-username">
+					<label for="deluUsername">账号:</label>
+					<input type="text" placeholder="手机/邮箱/用户名" id="deluUsername" name="deluUsername" class="deluUsername">
 					<br>
 					<label for="delu-password">密码:</label>
-					<input type="password" id="delu-password" name="delu-password" class="delu-password">
+					<input type="password" id="deluPassword" name="deluPassword" class="deluPassword">
 					<br>
-					<button name="delu-btn" id="delu-btn" class="delu-btn">登陆</button>
+					<button name="deluBtn" id="deluBtn" class="deluBtn">登陆</button>
 				</div>
+
 				<a href="#" class="forgetpw">忘记密码?</a>
 				<p>其他登陆方式:</p>
 				<div class="fl-img">
@@ -57,7 +63,7 @@
 						<br>
 						<p>6~16位字符,只能包含字母,数字或下划线</p>
 						<label for="mdblogpsw">请再次输入密码</label>
-						<input type="text" name="mdblogpsw" id="mdblogpsw" class="mdblogpsw">
+						<input type="password" name="mdblogpsw" id="mdblogpsw" class="mdblogpsw">
 						<br>
 						<label for="mgetmtd">从何处得知我们网站:</label>
 						<input type="text" name="mgetmtd" id="mgetmtd" class="mgetmtd">
@@ -70,7 +76,7 @@
 						<span class="mchangeNum">看不清,换一张<span>
 						<br>
 						<input type="checkbox" checked="checked" id="mcheckbox">
-						<span class="magree">我已看过并且同意《用户协议》</span>
+						<span class="magree">我已看过并且同意<a href="#">《用户协议》</a></span>
 						<br>
 						<button id="mlogin" class="mlogin" name="mlogin">注册</button>
 					</div>
@@ -93,14 +99,14 @@
 						<br>
 						<p>6~16位字符,只能包含字母,数字或下划线</p>
 						<label for="pdblogpsw">请再次输入密码</label>
-						<input type="text" name="pdblogpsw" id="pdblogpsw" class="pdblogpsw">
+						<input type="password" name="pdblogpsw" id="pdblogpsw" class="pdblogpsw">
 						<br>
 
 
 						<label for="pchecknum">图片验证码:</label>
 						<input type="text" name="pchecknum" id="pchecknum" class="pchecknum">
 						<span id="pshowCode"></span>		
-						<span class="pchangeNum">看不清,换一张<span>
+						<span class="pchangeNum">看不清,换一张</span>
 						<br>
 
 						<label for="precknum">请输入验证码:</label>
@@ -115,7 +121,7 @@
 						<p>从何处得知或推荐人登录邮箱。</p>	
 
 						<input type="checkbox" checked="checked" id="pcheckbox">
-						<span class="pagree">我已看过并且同意《用户协议》</span>
+						<span class="pagree">我已看过并且同意<a href="#">《用户协议》</a></span>
 
 						<br>
 						<button id="plogin" class="plogin" name="plogin">注册</button>

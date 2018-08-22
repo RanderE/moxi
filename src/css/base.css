@@ -12,6 +12,8 @@ img{
 .container{
 	width: 1500px;
 	margin: 0 auto;
+	padding-left: 0;
+	padding-right:0;
 }
 
 a{

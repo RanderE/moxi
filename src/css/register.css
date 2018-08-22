@@ -10,7 +10,7 @@ h2 { font-size: 30px; line-height: 66px; text-align: center; color: #999999; }
 
 #form .container #form_l #delu-form input { margin-left: 20px; width: 390px; height: 42px; border: 1px solid #ccc; margin-bottom: 18px; padding-left: 26px; font-size: 20px; color: #777; }
 
-#form .container #form_l #delu-form button { margin-left: 60px; width: 402px; height: 42px; border: none; border: 1px solid #ccc; background: white; margin-bottom: 38px; }
+#form .container #form_l #delu-form #deluBtn { margin-left: 60px; width: 360px; height: 42px; border: none; border: 1px solid #ccc; background: white; margin-bottom: 38px; }
 
 #form .container #form_l .forgetpw { color: #777; margin-left: 546px; margin-bottom: 27px; display: block; }
 
@@ -46,6 +46,8 @@ h2 { font-size: 30px; line-height: 66px; text-align: center; color: #999999; }
 
 #form .container #form_r #formM .magree { vertical-algin: middle; padding-left: 4px; }
 
+#form .container #form_r #formM .magree a { color: #fc0; text-decoration: none; }
+
 #form .container #form_r #formM #mlogin { width: 416px; height: 40px; font-size: 22px; border: 1px solid #ccc; background: white; margin-left: 188px; margin-bottom: 192px; }
 
 #form .container #form_r #formP label { display: inline-block; width: 176px; text-align: right; padding-right: 12px; color: #333; }
@@ -58,10 +60,12 @@ h2 { font-size: 30px; line-height: 66px; text-align: center; color: #999999; }
 
 #form .container #form_r #formP #precknum { width: 155px; }
 
-#form .container #form_r #formP #pshowCode { border: 1px solid #f60; background-color: #fc0; height: 40px; }
+#form .container #form_r #formP #pshowCode { border: 1px solid #f60; background-color: #fc0; padding: 7px 25px; font-size: 20px; }
 
 #form .container #form_r #formP #pcheckbox { width: 30px; height: 30px; margin-left: 198px; vertical-algin: middle; }
 
 #form .container #form_r #formP .pagree { vertical-algin: middle; padding-left: 4px; }
+
+#form .container #form_r #formP .pagree a { color: #fc0; text-decoration: none; }
 
 #form .container #form_r #formP #plogin { width: 416px; height: 40px; font-size: 22px; border: 1px solid #ccc; background: white; margin-left: 188px; margin-bottom: 192px; }

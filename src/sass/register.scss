@@ -20,9 +20,9 @@ h2{font-size: 30px;line-height: 66px;text-align:center;color:#999999;}
 					font-size: 20px;
 					color:#777;
 				}
-				button{
+				#deluBtn{
 					margin-left:60px;
-					width: 402px;
+					width: 360px;
 					height: 42px;
 					border:none;
 					border:1px solid #ccc;
@@ -122,6 +122,7 @@ h2{font-size: 30px;line-height: 66px;text-align:center;color:#999999;}
 				.magree{
 					vertical-algin:middle;
 					padding-left:4px;
+					a{color: #fc0;text-decoration: none;}
 				}
 
 				#mlogin{
@@ -170,7 +171,8 @@ h2{font-size: 30px;line-height: 66px;text-align:center;color:#999999;}
 				#pshowCode{
 					border:1px solid #f60;
 					background-color: #fc0;
-					height: 40px;
+					padding:7px 25px;
+					font-size: 20px;
 				}
 				#pcheckbox{
 					width: 30px;
@@ -181,6 +183,10 @@ h2{font-size: 30px;line-height: 66px;text-align:center;color:#999999;}
 				.pagree{
 					vertical-algin:middle;
 					padding-left:4px;
+					a{
+						color:#fc0;
+						text-decoration: none;
+					}
 				}
 				#plogin{
 					width: 416px;

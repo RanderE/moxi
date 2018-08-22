@@ -151,8 +151,11 @@
 				line-height: 43px;
 				text-align: center;
 				margin:0;
+				z-index:100;
+				font-weight:bold;
 				i{position: absolute;right:18px;top:15px;}
 					.nav2{
+						display:none;
 						position:absolute;
 						width: 238px;
 						margin:0;
@@ -161,10 +164,7 @@
 						background:black;
 						opacity: 0.9; 
 						>li{
-							
-							padding:9px 0 10px 0;
-							
-
+							padding:9.5px 0 10px 0;
 							a{
 								z-index:100;
 								color:white;
@@ -188,7 +188,7 @@
 								background:black;
 								z-index:100;
 								width: 680px;
-								height: 488px;
+								height: 500px;
 								background:white;
 								opacity: 0.9; 
 								position: absolute;
@@ -228,6 +228,9 @@
 							}
 						}
 					}
+			}
+			h3:hover .nav2{
+				display:block;
 			}
 			.nav1{
 				float:left;

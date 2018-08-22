@@ -62,13 +62,13 @@
 
 #nav .container #navt { height: 43px; border-bottom: 1px solid #CB0955; }
 
-#nav .container #navt h3 { float: left; position: relative; width: 238px; height: 43px; background: #FF3D3B; color: white; font-size: 18px; line-height: 43px; text-align: center; margin: 0; }
+#nav .container #navt h3 { float: left; position: relative; width: 238px; height: 43px; background: #FF3D3B; color: white; font-size: 18px; line-height: 43px; text-align: center; margin: 0; z-index: 100; font-weight: bold; }
 
 #nav .container #navt h3 i { position: absolute; right: 18px; top: 15px; }
 
-#nav .container #navt h3 .nav2 { position: absolute; width: 238px; margin: 0; font-size: 20px; text-align: center; background: black; opacity: 0.9; }
+#nav .container #navt h3 .nav2 { display: none; position: absolute; width: 238px; margin: 0; font-size: 20px; text-align: center; background: black; opacity: 0.9; }
 
-#nav .container #navt h3 .nav2 > li { padding: 9px 0 10px 0; }
+#nav .container #navt h3 .nav2 > li { padding: 9.5px 0 10px 0; }
 
 #nav .container #navt h3 .nav2 > li a { z-index: 100; color: white; text-decoration: none; position: relative; }
 
@@ -76,7 +76,7 @@
 
 #nav .container #navt h3 .nav2 > li a .jiantou { right: -264px; top: 2px; color: black; }
 
-#nav .container #navt h3 .nav2 > li .nav2_1 { display: none; background: black; z-index: 100; width: 680px; height: 488px; background: white; opacity: 0.9; position: absolute; left: 238px; top: 0; padding-left: 24px; padding-top: 27px; }
+#nav .container #navt h3 .nav2 > li .nav2_1 { display: none; background: black; z-index: 100; width: 680px; height: 500px; background: white; opacity: 0.9; position: absolute; left: 238px; top: 0; padding-left: 24px; padding-top: 27px; }
 
 #nav .container #navt h3 .nav2 > li .nav2_1 dl { text-align: left; overflow: hidden; }
 
@@ -89,6 +89,8 @@
 #nav .container #navt h3 .nav2 li:hover .nav2_1 { display: block; }
 
 #nav .container #navt h3 .nav2 li:hover a, #nav .container #navt h3 .nav2 li:hover i { color: red; }
+
+#nav .container #navt h3:hover .nav2 { display: block; }
 
 #nav .container #navt .nav1 { float: left; margin: 0; }
 

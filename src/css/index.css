@@ -1,0 +1,263 @@
+#nav .gudingnav { display: block; }
+
+#banner { background: #22D6B1; }
+
+#banner .container { overflow: hidden; padding-left: 238px; }
+
+#banner .container #banner_l { display: block; float: left; width: 1012px; height: 500px; }
+
+#banner .container #banner_r { text-align: center; padding-top: 26px; }
+
+#img .container { overflow: hidden; }
+
+#img .container .hotsale { float: left; }
+
+#img .container ul { float: left; }
+
+#img .container ul li { text-align: center; width: 304px; height: 187px; border: 1px solid #ccc; float: left; }
+
+#img .container ul li a img { width: 298px; height: 183px; }
+
+#logohs { margin-bottom: 26px; }
+
+#logohs .container { overflow: hidden; }
+
+#logohs .container h4 { margin-top: 20px; font-size: 24px; font-weight: bold; line-height: 54px; }
+
+#logohs .container h4 span { font-size: 18px; font-weight: normal; }
+
+#logohs .container ul { width: 1008px; height: 300px; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+
+#logohs .container ul li { width: 250px; height: 100px; float: left; border-top: 1px solid #ccc; border-left: 1px solid #ccc; }
+
+#logohs .container ul li a { width: 248px; height: 98px; text-align: center; display: block; line-height: 98px; position: relative; }
+
+#logohs .container ul li a img { position: absolute; left: 28px; top: 13px; transition: all 1s; }
+
+#logohs .container ul li:hover a img { left: 14px; }
+
+#main { margin-bottom: 20px; }
+
+#main .container #main1 { overflow: hidden; }
+
+#main .container #main1 h5 { line-height: 46px; color: red; position: relative; font-size: 24px; padding-left: 56px; margin: 0; }
+
+#main .container #main1 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main1 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main1 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main1 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main1 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main1 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main1 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main1 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main1 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main1 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main1 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main1 #mainbottom #imgfield a img { height: 275px; }
+
+#main .container #main2 { margin-top: 20px; overflow: hidden; }
+
+#main .container #main2 h5 { line-height: 46px; color: red; position: relative; font-size: 28px; padding-left: 56px; margin: 0; }
+
+#main .container #main2 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main2 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main2 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main2 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main2 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main2 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main2 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main2 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main2 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main2 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main2 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main2 #mainbottom #imgfield a img { height: 275px; }
+
+#main .container #main3 { margin-top: 20px; overflow: hidden; }
+
+#main .container #main3 h5 { line-height: 46px; color: red; position: relative; font-size: 28px; padding-left: 56px; margin: 0; }
+
+#main .container #main3 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main3 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main3 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main3 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main3 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main3 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main3 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main3 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main3 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main3 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main3 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main3 #mainbottom #imgfield a img { height: 275px; }
+
+#main .container #main4 { margin-top: 20px; overflow: hidden; }
+
+#main .container #main4 h5 { line-height: 46px; color: red; position: relative; font-size: 28px; padding-left: 56px; margin: 0; }
+
+#main .container #main4 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main4 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main4 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main4 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main4 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main4 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main4 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main4 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main4 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main4 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main4 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main4 #mainbottom #imgfield a img { height: 275px; }
+
+#main .container #main5 { margin-top: 20px; overflow: hidden; }
+
+#main .container #main5 h5 { line-height: 46px; color: red; position: relative; font-size: 28px; padding-left: 56px; margin: 0; }
+
+#main .container #main5 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main5 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main5 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main5 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main5 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main5 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main5 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main5 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main5 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main5 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main5 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main5 #mainbottom #imgfield a img { height: 275px; }
+
+#main .container #main6 { margin-top: 20px; overflow: hidden; }
+
+#main .container #main6 h5 { line-height: 46px; color: red; position: relative; font-size: 28px; padding-left: 56px; margin: 0; }
+
+#main .container #main6 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main6 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main6 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main6 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main6 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main6 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main6 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main6 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main6 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main6 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main6 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main6 #mainbottom #imgfield a img { height: 275px; }
+
+#main .container #main7 { margin-top: 20px; overflow: hidden; }
+
+#main .container #main7 h5 { line-height: 46px; color: red; position: relative; font-size: 28px; padding-left: 56px; margin: 0; }
+
+#main .container #main7 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main7 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main7 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main7 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main7 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main7 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main7 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main7 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main7 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main7 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main7 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main7 #mainbottom #imgfield a img { height: 275px; }
+
+#main .container #main8 { margin-top: 20px; overflow: hidden; }
+
+#main .container #main8 h5 { line-height: 46px; color: red; position: relative; font-size: 28px; padding-left: 56px; margin: 0; }
+
+#main .container #main8 h5 i { position: absolute; display: block; width: 37px; height: 47px; background: url(../img/headimg1.png); left: 0px; }
+
+#main .container #main8 #mainbottom { border-top: 1px solid #EF0A4A; }
+
+#main .container #main8 #mainbottom .lunbo { float: left; width: 374px; height: 562px; position: relative; overflow: hidden; }
+
+#main .container #main8 #mainbottom .lunbo ul { position: absolute; left: 0; top: 0; }
+
+#main .container #main8 #mainbottom .lunbo ul li { float: left; }
+
+#main .container #main8 #mainbottom .lunbo ul li a { display: block; }
+
+#main .container #main8 #mainbottom .lunbo ul li a img { display: block; width: 374px; height: 562px; }
+
+#main .container #main8 #mainbottom .lunbo .page { position: absolute; right: 140px; bottom: 0; padding: 10px; }
+
+#main .container #main8 #mainbottom .lunbo .page span { display: inline-block; margin: 0 5px; width: 10px; height: 10px; line-height: 10px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#main .container #main8 #mainbottom .lunbo .page .active { background-color: rgba(255, 0, 0, 0.8); }
+
+#main .container #main8 #mainbottom #imgfield { float: right; width: 1126px; height: 562px; }
+
+#main .container #main8 #mainbottom #imgfield a img { height: 275px; }
