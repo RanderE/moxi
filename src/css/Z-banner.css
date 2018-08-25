@@ -24,11 +24,13 @@
 .move ul li {
     position: absolute;
 }
-
+.bigbanner{
+    position: relative;
+}
 .ctrl {
     position: absolute;
     width: 100%;
-    bottom: -98px;
+    bottom: -450px;
     left:-26px;
     text-align: center;
 }

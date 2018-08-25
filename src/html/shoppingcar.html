@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="../font/iconfont.css">	
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/top.css">
+	<link rel="stylesheet" href="../css/shoppingcar.css">
+
+	<script src="../js/require.js" data-main="../js/shoppingcar"></script>
+</head>
+<body>
+	<div id="mhead"></div>
+	<div id="shoppingCar">
+		<div class="container">
+			<ul class="shophead">
+				<li class="fl proname">商品</li>
+				<li class="fl">价格</li>
+				<li class="fl">数量</li>
+				<li class="fl">小计(元)</li>
+				<li class="fl">操作</li>
+			</ul>	
+			<div class="carContent"></div>
+			<div class="carPage">
+				<p><i class="glyphicon glyphicon-exclamation-sign"></i>有推荐一起购买的商品<a href="#">详情</a></p>
+				<p><i class="glyphicon glyphicon-exclamation-sign"></i>加购推荐商品运费更超值！<a href="#">详情</a></p>
+			</div>
+			<div class="totalPrice">
+				<button id="totalBtn">全部结算</button>
+				<p>总价(不含运费) : <span id="totalPrice"></span></p>
+
+			</div>
+		</div>
+	</div>
+	<div id="nogoods">
+		<div class="container">
+			<p>没有商品</p>
+		</div>
+	</div>
+
+	<div id="mfoot"></div>
+</body>
+</html>

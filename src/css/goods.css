@@ -1,0 +1,109 @@
+#gtop .container { overflow: hidden; }
+
+#gtop .container a { color: #000000; text-decoration: none; }
+
+#gtop .container a h3 { font-size: 30px; line-height: 50px; }
+
+#gtop .container .smtitle { display: block; float: left; margin-top: 28px; margin-left: 10px; font-size: 18px; }
+
+#goodInfo .container #goodInfoL { height: 751px; }
+
+#goodInfo .container #goodInfoL #demo { display: block; width: 400px; height: 400px; margin: 0; position: relative; border: 1px solid #ccc; box-sizing: border-box; }
+
+#goodInfo .container #goodInfoL #demo #small_box { position: relative; z-index: 1; }
+
+#goodInfo .container #goodInfoL #demo #small_box #float_box { display: none; width: 100px; height: 100px; position: absolute; background: #ffffcc; border: 1px solid #ccc; filter: alpha(opacity=50); opacity: 0.5; }
+
+#goodInfo .container #goodInfoL #demo #small_box #mark { position: absolute; display: block; width: 400px; height: 225px; background: #fff; filter: alpha(opacity=0); opacity: 0; }
+
+#goodInfo .container #goodInfoL #demo #small_box img { width: 398px; height: 398px; }
+
+#goodInfo .container #goodInfoL #demo #big_box { display: none; position: absolute; top: 0; left: 460px; width: 400px; height: 400px; overflow: hidden; border: 1px solid #ccc; z-index: 1; }
+
+#goodInfo .container #goodInfoL #demo #big_box img { position: absolute; z-index: 5; }
+
+#goodInfo .container #goodInfoL #lunbo { margin-top: 91px; width: 440px; position: relative; }
+
+#goodInfo .container #goodInfoL #lunbo i { position: absolute; font-size: 28px; vertical-align: center; color: #ccc; }
+
+#goodInfo .container #goodInfoL #lunbo .left { left: 0px; top: 27px; }
+
+#goodInfo .container #goodInfoL #lunbo .right { right: 0; top: 27px; }
+
+#goodInfo .container #goodInfoL #lunbo ul { float: left; position: relative; vertical-align: center; }
+
+#goodInfo .container #goodInfoL #lunbo ul li { vertical-align: center; position: absolute; width: 85px; height: 85px; border: 2px solid red; margin-left: 30px; }
+
+#goodInfo .container #goodInfoC { width: 698px; }
+
+#goodInfo .container #goodInfoC h3 { font-size: 20px; line-height: 50px; margin: 0; color: #aaa; }
+
+#goodInfo .container #goodInfoC .proprice { padding-left: 17px; height: 82px; border-top: 1px solid red; background: #FFF3F3; }
+
+#goodInfo .container #goodInfoC .proprice p { margin-top: 12px; }
+
+#goodInfo .container #goodInfoC .proprice p .nowp { font-size: 22px; color: #F86F76; }
+
+#goodInfo .container #goodInfoC .proprice p .everp { text-decoration: line-through; font-size: 18px; }
+
+#goodInfo .container #goodInfoC .proarea { height: 44px; line-height: 44px; background: #eee; padding-left: 15px; padding-right: 44px; }
+
+#goodInfo .container #goodInfoC .parchase { padding-top: 7px; }
+
+#goodInfo .container #goodInfoC .parchase p { font-size: 14px; line-height: 16px; margin-bottom: 24px; }
+
+#goodInfo .container #goodInfoC .parchase p span { border: 1px solid red; border-radius: 5px; padding: 5px 16px; margin-right: 10px; }
+
+#goodInfo .container #goodInfoC .parchase p span i { display: inline-block; width: 14px; height: 14px; background: url("../img/shipTips.jpg"); }
+
+#goodInfo .container #goodInfoC .parchase p .send1, #goodInfo .container #goodInfoC .parchase p .send2, #goodInfo .container #goodInfoC .parchase p .send3, #goodInfo .container #goodInfoC .parchase p .send4 { border: 1px solid #999; }
+
+#goodInfo .container #goodInfoC .parchase p button { width: 32px; height: 37px; border: 1px solid #eee; }
+
+#goodInfo .container #goodInfoC .parchase p input { width: 66px; height: 34px; border: 1px solid #999; text-align: center; }
+
+#goodInfo .container #goodInfoC .parchase .post { margin-bottom: 0; }
+
+#goodInfo .container #goodInfoC .parchase .postmethod { padding-left: 85px; margin-top: -12px; margin-bottom: 12px; }
+
+#goodInfo .container #goodInfoC .parchase .postnew2, #goodInfo .container #goodInfoC .parchase .postnew3, #goodInfo .container #goodInfoC .parchase .postnew4 { display: none; }
+
+#goodInfo .container #goodInfoC .parchase #add { width: 264px; height: 52px; background: #F86F76; color: #fff; font-size: 18px; vertical-align: center; margin-right: 13px; margin-top: 1px; }
+
+#goodInfo .container #goodInfoC .parchase #add i { font-size: 18px; }
+
+#goodInfo .container #goodInfoC .parchase #buy { width: 264px; height: 52px; background: #FFF3F3; vertical-align: center; color: #F86F76; font-size: 18px; border: 1px solid #F86F76; box-sizing: border-box; }
+
+#goodInfo .container #goodInfoC .parchase .dianzan { margin-top: 60px; float: right; }
+
+#goodInfo .container #goodInfoC .parchase .dianzan i { color: #F86F76; }
+
+#goodInfo .container #goodInfoR { width: 334px; padding: 0 25px 0 30px; }
+
+#goodInfo .container #goodInfoR .img1 { width: 96px; float: left; }
+
+#goodInfo .container #goodInfoR h3 { margin: 0; margin-left: 121px; font-size: 26px; line-height: 96px; color: #F86F76; }
+
+#goodInfo .container #goodInfoR p { text-indent: 2em; margin-top: 30px; line-height: 20px; }
+
+#goodInfo .container #goodInfoR .img2 { width: 238px; height: 162px; display: block; margin: 0 auto; }
+
+#goodInfo .container #goodInfoR .img3 { width: 238px; height: 152px; display: block; margin: 30px auto; }
+
+#goodInfo .container #goodbottom #goodbl h4 { margin: 0; width: 244px; height: 48px; border: 1px solid #ccc; background: #eee; line-height: 48px; padding-left: 18px; }
+
+#goodInfo .container #goodbottom #goodbl .hotGood { padding: 23px 62px; border: 1px solid #ccc; }
+
+#goodInfo .container #goodbottom #goodbr { margin-bottom: 146px; width: 1224px; border-top: 1px solid #F86F76; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+
+#goodInfo .container #goodbottom #goodbr p { background: #FAFAFA; overflow: hidden; margin: 0; border-right: 1px solid #ccc; }
+
+#goodInfo .container #goodbottom #goodbr p span { display: block; float: left; padding: 15px 52px; font-size: 20px; }
+
+#goodInfo .container #goodbottom #goodbr p .productBtn { background: #F86F76; color: #fff; }
+
+#goodInfo .container #goodbottom #goodbr #product { display: block; }
+
+#goodInfo .container #goodbottom #goodbr #pinlun { display: none; height: 50px; border-top: 1px solid #ccc; border-right: 1px solid #ccc; }
+
+#goodInfo .container #goodbottom #goodbr #FAQ { display: none; border-right: 1px solid #ccc; }

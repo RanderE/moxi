@@ -1,0 +1,121 @@
+#shoppingCar{
+	margin-top:106px;
+
+	.container{
+		overflow:hidden;
+		.shophead{
+			width: 1500px;
+			overflow:hidden;
+			background:#F3F3F3;
+			margin:0;
+			li{
+				width: 15%;
+				line-height: 50px;
+				text-align:center;
+			}
+			.proname{width: 40%;}
+		}
+		.carContent{
+			overflow:hidden;
+			ul{
+				margin:0;
+				margin-right:0;
+				width: 1500px;
+				height: 160px;
+				border:1px solid #999;
+				border-top:none;
+				li{
+					padding-top:18px;
+					float:left;
+					img{
+						width: 103px;
+						border:1px solid #999;
+						margin:0px 24px;
+					}
+					h3{
+						width: 429px;
+						font-size: 20px;
+						margin:0;
+						margin-right:116px;
+						line-height: 26px;
+					}
+					button{
+						outline:none;
+						width: 32px;
+						height: 35px;
+						border:1px solid #eee;
+						margin:0;
+					}
+					input{
+						outline:none;
+						width: 66px;
+						height: 34px;
+						border:1px solid #999;
+						text-align:center;
+					}
+					.jian{
+						margin-right:-5px;
+						margin-left:140px;
+					}
+					.sum{margin-left:-4px;}
+					.currTotalPrice{
+						margin-left:124px;
+					}
+				}
+				li:last-child{
+					margin-left:166px;
+					text-align:center;
+				}
+			}
+		}
+		.carPage{
+			padding-left:53px;
+			font-size: 18px;
+			border:1px solid #999;
+			p{
+				margin:0;
+				line-height: 36px;
+				i{color:red;padding-right:5px;font-size: 24px;}
+				a{color:red;padding-left:10px;}
+			}
+		}
+		.totalPrice{
+			margin-bottom:40px;
+			height: 55px;
+			p{
+				width: 15%;
+				height: 55px;
+				line-height: 55px;
+				float:right;
+				margin:0;
+				span{
+					font-size: 28px;
+					color:#F26E78;
+				}
+			}
+			button{
+				float:right;
+				width: 10%;
+				height: 55px;
+				border:none;
+				background:#F26E78;
+				color:#fff;
+				font-size: 22px;
+				font-weight:bold;
+				outline:none;
+			}
+		}
+	}
+}
+#nogoods{
+	display:none;
+	.container{
+		overflow:hidden;
+		p{		
+			width: 1500px;
+			height: 154px;
+			text-align:center;
+			line-height: 154px;
+		}
+	}
+}

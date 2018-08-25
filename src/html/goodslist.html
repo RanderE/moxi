@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="../font/iconfont.css">	
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/top.css">
+	<link rel="stylesheet" href="../css/goodslist.css">
+
+	<script src="../js/require.js" data-main="../js/goodslist"></script>
+</head>
+<body>
+	<div id="mhead"></div>
+	<div id="position">
+		<div class="container">
+			<h4 class="fl">当前位置：</h4>
+			<span>食品/饮料/酒类/生鲜</span>
+			<span class="smsquare fir">零食/糖果/巧克力
+				<i class="glyphicon glyphicon-chevron-down" id="arrow1"></i>
+				<ul>
+					<li><a href="#">饼干/糕点</a></li>
+					<li><a href="#">饼干/糕点</a></li>
+					<li><a href="#">饼干/糕点</a></li>
+					<li><a href="#">粮油/干货</a></li>
+					<li><a href="#">粮油/干货</a></li>
+					<li><a href="#">粮油/干货</a></li>
+					<li><a href="#">调味/速食</a></li>
+					<li><a href="#">调味/速食</a></li>
+				</ul>
+			</span>
+			<span class="smsquare sec">全部
+				<i class="glyphicon glyphicon-chevron-down" id="arrow2"> </i>
+				<ul>
+					<li><a href="#">坚果</a></li>
+					<li><a href="#">糕点</a></li>
+					<li><a href="#">饼干</a></li>
+					<li><a href="#">粮油</a></li>
+					<li><a href="#">干货</a></li>
+					<li><a href="#">膨化</a></li>
+					<li><a href="#">速食</a></li>
+					<li><a href="#">调味</a></li>
+				</ul>
+			</span>
+		</div>
+	</div>
+	<div id="goodslist">
+		<div class="container">
+			<div id="goodslistl" class="fl">
+				<h3>热销商品</h3>
+				<div id="goodslistSale"></div>
+			</div>
+			<div id="goodslistr" class="fl">
+				<h3>商品筛选</h3>
+				<div id="goodslistMain">
+					<div id="goodsmainT">
+						排序:
+						<span class="nomal">默认</span>
+						<span class="price r" id="price">价格</span>
+						<span class="time r last" id="time">时间</span>
+						价格: 
+						<input type="text">(元)&nbsp;至<input type="text">(元)&nbsp;<button id="btn" >确定</button>
+					</div>
+					<div id="goodslistMenu"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="mfoot"></div>
+</body>
+</html>

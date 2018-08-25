@@ -1,0 +1,241 @@
+#position{
+	.container{
+		h4{
+			font-size:20px; 
+			height: 54px;
+			line-height: 54px;
+			margin:0;
+		}
+		span{
+			margin:0;
+			float:left;
+			display:block;
+			padding:4px 8px;
+			font-size: 14px;
+			border:1px solid #999;
+			background:#eee;
+			margin-top:14px;
+			margin-right:3px;
+		}
+		.smsquare{
+			position:relative;
+			width: 142px;
+			height: 28px;
+			ul{
+				display:none;
+				position: absolute;
+				padding:5px 8px;
+				width: 450px;
+				border:1px solid #FF3D3B;
+				left:-1px;
+				top:26px;
+				background:#FEFAF9;
+				li{
+					float:left;
+					a{
+						padding:0 23px;
+						display:inline-block;
+						color:#666;	
+					}
+					// a{
+
+					// }
+				}
+			}
+
+		}
+		.sec{
+			width: 64px;
+			}
+
+		.fir:hover ul{
+			display:block;
+			
+		}
+		.fir:hover{
+			border:1px solid #FF3D3B;
+			background:#FEFAF9;
+			border-bottom:1px solid #fff;
+		}
+		.fir ul li:hover a{
+			color:#FF3D3B;
+		}
+		.sec:hover ul{
+			display:block;
+
+		}
+		.sec:hover{
+			border:1px solid #FF3D3B;
+			background:#FEFAF9;
+			border-bottom:1px solid #fff;
+		}
+	}
+}
+#goodslist{
+	.container{
+		#goodslistl{
+			width: 262px;
+			h3{
+				font-size: 18px;
+				line-height: 46px;
+				border:1px solid #aaa;
+				padding-left:20px;
+				background:#FAFAFA;
+				margin-bottom:0;
+
+			}
+			#goodslistSale{
+				border:1px solid #aaa;
+				border-top:none;
+				padding:0 18px;
+				ul{
+					li{
+						text-align:center;
+						height: 230px;
+						list-style:none;
+						border-bottom:1px dashed #ccc;
+						padding-top:10px;
+						img{
+							display:block;
+							margin:0 auto;
+							height: 128px;
+						}
+						a{
+							color:#666;
+						}
+						h4{
+							float:left;
+							line-height: 36px;
+							font-size: 16px;
+							color:red;
+						}
+					}
+				}
+			}
+		}
+		#goodslistr{
+			padding-left:11px;
+			h3{
+				font-size: 18px;
+				line-height: 46px;
+				border:1px solid #aaa;
+				padding-left:20px;
+				background:#FAFAFA;
+				width: 1212px;
+				margin-bottom:9px;
+			}
+			#goodslistMain{
+				#goodsmainT{
+					width: 1212px;
+					height: 52px;
+					line-height: 52px;
+					border:1px solid #aaa;
+					padding-left:15px;
+					.nomal{
+						padding:5px;
+						border:1px solid #999;
+						margin-left:10px;
+					}
+					.r{
+						padding:6px;
+						background:#FF3D3B;
+						color:white;
+						margin-left:10px;
+					}
+					.last{
+						margin-right:37px;
+					}
+					input{
+						height: 28px;
+						width: 52px;
+						border:1px solid #999;
+						veritcal-align:middle;
+					}
+					#btn{
+						display:inline-block;
+						height: 28px;
+						width: 52px;
+						border:1px solid #999;
+						vertical-align:middle;
+						line-height: 28px;
+					}
+				}
+				#goodslistMenu{
+					ul{
+						width: 1214px;
+						overflow:hidden;
+						li{
+							float:left;
+							width: 25%;
+							height: 370px;
+							text-align:center;
+							padding:0 10px;
+							a{
+								display:block;
+								text-align:center;
+								padding-bottom:12px;
+								color:#666;
+								img{
+									margin-top:22px;
+									height: 200px;
+								}
+							}
+							h4{
+								font-size: 20px;
+								color:#990033;
+								display:inline;
+								margin:0;
+								font-weight:bold;
+							}
+							.cost{
+								font-size: 20px;
+								color:#F64900;
+								font-weight:bold;
+							}
+							.page{
+								line-height: 22px;
+							}
+						}
+					}
+					.partPage{
+						text-align:center;
+						margin-bottom:220px;
+						span{
+							display:inline-block;
+							width: 48px;
+							height: 30px;
+							border:1px solid #999;
+							box-sizing:border-box;
+							line-height: 32px;
+							text-align:center;
+							margin-right:25px;
+						}
+						.active{
+							width: 50px;
+							height: 32px;
+							background:#ccc;
+						}
+						.zhushi{
+							border:none;
+						}
+						.tiaozhuan1{
+							margin-left:35px;
+							border:none;
+							width: 56px;
+						}
+						.tiaozhuan2{
+							width: 42px;
+							height: 30px;
+							border:1px solid #999;
+							text-align:center;
+						}
+						.tiaozhuan4{
+							background:#fff;
+							border:none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

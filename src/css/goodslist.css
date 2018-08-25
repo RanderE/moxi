@@ -1,0 +1,81 @@
+#position .container h4 { font-size: 20px; height: 54px; line-height: 54px; margin: 0; }
+
+#position .container span { margin: 0; float: left; display: block; padding: 4px 8px; font-size: 14px; border: 1px solid #999; background: #eee; margin-top: 14px; margin-right: 3px; }
+
+#position .container .smsquare { position: relative; width: 142px; height: 28px; }
+
+#position .container .smsquare ul { display: none; position: absolute; padding: 5px 8px; width: 450px; border: 1px solid #FF3D3B; left: -1px; top: 26px; background: #FEFAF9; }
+
+#position .container .smsquare ul li { float: left; }
+
+#position .container .smsquare ul li a { padding: 0 23px; display: inline-block; color: #666; }
+
+#position .container .sec { width: 64px; }
+
+#position .container .fir:hover ul { display: block; }
+
+#position .container .fir:hover { border: 1px solid #FF3D3B; background: #FEFAF9; border-bottom: 1px solid #fff; }
+
+#position .container .fir ul li:hover a { color: #FF3D3B; }
+
+#position .container .sec:hover ul { display: block; }
+
+#position .container .sec:hover { border: 1px solid #FF3D3B; background: #FEFAF9; border-bottom: 1px solid #fff; }
+
+#goodslist .container #goodslistl { width: 262px; }
+
+#goodslist .container #goodslistl h3 { font-size: 18px; line-height: 46px; border: 1px solid #aaa; padding-left: 20px; background: #FAFAFA; margin-bottom: 0; }
+
+#goodslist .container #goodslistl #goodslistSale { border: 1px solid #aaa; border-top: none; padding: 0 18px; }
+
+#goodslist .container #goodslistl #goodslistSale ul li { text-align: center; height: 230px; list-style: none; border-bottom: 1px dashed #ccc; padding-top: 10px; }
+
+#goodslist .container #goodslistl #goodslistSale ul li img { display: block; margin: 0 auto; height: 128px; }
+
+#goodslist .container #goodslistl #goodslistSale ul li a { color: #666; }
+
+#goodslist .container #goodslistl #goodslistSale ul li h4 { float: left; line-height: 36px; font-size: 16px; color: red; }
+
+#goodslist .container #goodslistr { padding-left: 11px; }
+
+#goodslist .container #goodslistr h3 { font-size: 18px; line-height: 46px; border: 1px solid #aaa; padding-left: 20px; background: #FAFAFA; width: 1212px; margin-bottom: 9px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodsmainT { width: 1212px; height: 52px; line-height: 52px; border: 1px solid #aaa; padding-left: 15px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodsmainT .nomal { padding: 5px; border: 1px solid #999; margin-left: 10px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodsmainT .r { padding: 6px; background: #FF3D3B; color: white; margin-left: 10px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodsmainT .last { margin-right: 37px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodsmainT input { height: 28px; width: 52px; border: 1px solid #999; veritcal-align: middle; }
+
+#goodslist .container #goodslistr #goodslistMain #goodsmainT #btn { display: inline-block; height: 28px; width: 52px; border: 1px solid #999; vertical-align: middle; line-height: 28px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu ul { width: 1214px; overflow: hidden; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu ul li { float: left; width: 25%; height: 370px; text-align: center; padding: 0 10px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu ul li a { display: block; text-align: center; padding-bottom: 12px; color: #666; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu ul li a img { margin-top: 22px; height: 200px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu ul li h4 { font-size: 20px; color: #990033; display: inline; margin: 0; font-weight: bold; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu ul li .cost { font-size: 20px; color: #F64900; font-weight: bold; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu ul li .page { line-height: 22px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu .partPage { text-align: center; margin-bottom: 220px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu .partPage span { display: inline-block; width: 48px; height: 30px; border: 1px solid #999; box-sizing: border-box; line-height: 32px; text-align: center; margin-right: 25px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu .partPage .active { width: 50px; height: 32px; background: #ccc; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu .partPage .zhushi { border: none; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu .partPage .tiaozhuan1 { margin-left: 35px; border: none; width: 56px; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu .partPage .tiaozhuan2 { width: 42px; height: 30px; border: 1px solid #999; text-align: center; }
+
+#goodslist .container #goodslistr #goodslistMain #goodslistMenu .partPage .tiaozhuan4 { background: #fff; border: none; }

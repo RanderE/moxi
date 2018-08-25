@@ -1,0 +1,53 @@
+#shoppingCar { margin-top: 106px; }
+
+#shoppingCar .container { overflow: hidden; }
+
+#shoppingCar .container .shophead { width: 1500px; overflow: hidden; background: #F3F3F3; margin: 0; }
+
+#shoppingCar .container .shophead li { width: 15%; line-height: 50px; text-align: center; }
+
+#shoppingCar .container .shophead .proname { width: 40%; }
+
+#shoppingCar .container .carContent { overflow: hidden; }
+
+#shoppingCar .container .carContent ul { margin: 0; margin-right: 0; width: 1500px; height: 160px; border: 1px solid #999; border-top: none; }
+
+#shoppingCar .container .carContent ul li { padding-top: 18px; float: left; }
+
+#shoppingCar .container .carContent ul li img { width: 103px; border: 1px solid #999; margin: 0px 24px; }
+
+#shoppingCar .container .carContent ul li h3 { width: 429px; font-size: 20px; margin: 0; margin-right: 116px; line-height: 26px; }
+
+#shoppingCar .container .carContent ul li button { outline: none; width: 32px; height: 35px; border: 1px solid #eee; margin: 0; }
+
+#shoppingCar .container .carContent ul li input { outline: none; width: 66px; height: 34px; border: 1px solid #999; text-align: center; }
+
+#shoppingCar .container .carContent ul li .jian { margin-right: -5px; margin-left: 140px; }
+
+#shoppingCar .container .carContent ul li .sum { margin-left: -4px; }
+
+#shoppingCar .container .carContent ul li .currTotalPrice { margin-left: 124px; }
+
+#shoppingCar .container .carContent ul li:last-child { margin-left: 166px; text-align: center; }
+
+#shoppingCar .container .carPage { padding-left: 53px; font-size: 18px; border: 1px solid #999; }
+
+#shoppingCar .container .carPage p { margin: 0; line-height: 36px; }
+
+#shoppingCar .container .carPage p i { color: red; padding-right: 5px; font-size: 24px; }
+
+#shoppingCar .container .carPage p a { color: red; padding-left: 10px; }
+
+#shoppingCar .container .totalPrice { margin-bottom: 40px; height: 55px; }
+
+#shoppingCar .container .totalPrice p { width: 15%; height: 55px; line-height: 55px; float: right; margin: 0; }
+
+#shoppingCar .container .totalPrice p span { font-size: 28px; color: #F26E78; }
+
+#shoppingCar .container .totalPrice button { float: right; width: 10%; height: 55px; border: none; background: #F26E78; color: #fff; font-size: 22px; font-weight: bold; outline: none; }
+
+#nogoods { display: none; }
+
+#nogoods .container { overflow: hidden; }
+
+#nogoods .container p { width: 1500px; height: 154px; text-align: center; line-height: 154px; }
