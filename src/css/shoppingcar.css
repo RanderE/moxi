@@ -51,3 +51,31 @@
 #nogoods .container { overflow: hidden; }
 
 #nogoods .container p { width: 1500px; height: 154px; text-align: center; line-height: 154px; }
+
+#Goodsbanner { margin-bottom: 152px; }
+
+#Goodsbanner .container { overflow: hidden; }
+
+#Goodsbanner .container h3 { margin: 0; font-size: 18px; line-height: 38px; width: 140px; height: 38px; text-align: center; border: 1px solid #ccc; border-bottom: 1px solid #fff; }
+
+#Goodsbanner .container #bannerList { width: 1500px; height: 408px; position: relative; border: 1px solid #ccc; }
+
+#Goodsbanner .container #bannerList i { width: 46px; font-size: 46px; position: absolute; }
+
+#Goodsbanner .container #bannerList .fli { left: 0; top: 170px; }
+
+#Goodsbanner .container #bannerList .fri { right: 0; top: 170px; }
+
+#Goodsbanner .container #bannerList .screen { display: block; width: 1428px; height: 408px; overflow: hidden; margin-left: 40px; }
+
+#Goodsbanner .container #bannerList .screen .totalList { position: absolute; margin-left: 40px; left: 0px; top: 0; }
+
+#Goodsbanner .container #bannerList .screen .totalList ul { width: 1428px; height: 408px; margin: 0; float: left; overflow: hidden; }
+
+#Goodsbanner .container #bannerList .screen .totalList ul li { overflow: hidden; padding: 40px 35px 0 35px; width: 234px; height: 408px; text-align: center; }
+
+#Goodsbanner .container #bannerList .screen .totalList ul li img { width: 165px; height: 173px; }
+
+#Goodsbanner .container #bannerList .screen .totalList ul li a { display: block; width: 164px; font-size: 18px; line-height: 26px; text-decoration: none; color: #777; }
+
+#Goodsbanner .container #bannerList .screen .totalList ul li h4 { color: red; }

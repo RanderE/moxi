@@ -163,8 +163,128 @@ require(['config'],function(){
 			}
 
 			//引入数据库数据生成商品列表切换
+			//数据
+			var res;
+			 $.ajax({  
+			        type:"POST",  
+			        url:'../api/goodslist.php?',  
+			        async:false, 
+			        dataType:"json",  
+			        //传递页面索引  
+			        success:function(data){   
+			        	res = data;
+			        }  
+      			});  
 
-			
+			console.log(res.data);
+			 var data1 = res.data.slice(0,6)
+			//生成ul
+			let $firUl = $('.firUl') 
+			 $firUl.html(data1.map(item=>{
+			 	return `<li class="fl" data-guid="${item.id} >
+			 			<a href="#">
+							<img src="${item.imgurl}" alt="" />
+						</a>
+						</br>
+						<a href="#" class="page">${item.post}${item.name}</a>
+						<h4>${item.price}元</h4>
+							
+			 			</li>`
+			 }))
+
+			var data2 = res.data.slice(7,13);
+			let $secUl = $('.secUl') 
+			 $secUl.html(data2.map(item=>{
+			 	return `<li data-guid="${item.id}" class="fl">
+			 			<a href="#">
+							<img src="${item.imgurl}" alt="" />
+						</a>
+						</br>
+						<a href="#" class="page">${item.post}${item.name}</a>
+						<h4>${item.price}元</h4>
+							
+			 			</li>`
+			 }))
+
+			var data3 = res.data.slice(14,20)
+			 let $thrUl = $('.thrUl') 
+			 $thrUl.html(data3.map(item=>{
+			 	return `<li data-guid="${item.id}"  class="fl">
+			 			<a href="#">
+							<img src="${item.imgurl}" alt="" />
+						</a>
+						</br>
+						<a href="#" class="page">${item.post}${item.name}</a>
+						<h4>${item.price}元</h4>
+							
+			 			</li>`
+			 }))
+
+
+			//轮播
+			let index = 1,
+	        instance = $('.bannerUl')[0].offsetWidth,
+	        oldlen = $('.bannerUl').length;
+
+	        console.log($('.bannerUl')[0]);
+
+	        $('.totalList').append($(".bannerUl").eq(0).clone()).prepend($(".bannerUl").eq(oldlen - 1).clone());
+
+	        let len = $('.totalList').children().length;
+
+		   	$('.totalList').css({
+		   		width: instance * len,
+		   		left: -instance
+		   	});
+
+		    $('.nextBtn').on('click', function(){
+
+		        index++;
+		    	$('.totalList').stop().animate({left: -instance * index}, 200, function(){
+		            // 当滑动到最后(复制到最后的第一张图位置)，等动画完成之后，初始化整个图片滚动层容器的位置
+		            if( index == len - 1 ){
+		                index = 1;
+		                $('.totalList').css({left: -instance * index});
+		            }
+		        });
+		        
+		    });
+
+
+		    $('.prevBtn').on('click', function(){
+
+		        index--;
+		        $('.totalList').stop().animate({left: -instance * index}, 200, function(){
+		            // 当滑动到前面(复制到最前面的最后一张图位置)，等动画完成之后，初始化整个图片滚动层容器的位置
+		            if( index == 0 ){
+		                index = len - 2;
+		                $('.totalList').css({
+		                	left: -instance*index,
+		                });
+		            }
+		        });
+		        
+		    });
+
+		    // 自动播放
+		    function autoPlay(){
+
+		        autoplay = setInterval(function(){
+
+		            
+		            $('.totalList').stop().animate({left: -instance * index}, 200, function(){
+		                if( index == len - 1 ){
+		                    index = 1;
+		                    $('.totalList').css({left: -instance * index});
+		                }
+
+		           	index++;
+		            });
+
+		        }, 3000);    
+		    };
+
+		    autoPlay();
 
 
 		});

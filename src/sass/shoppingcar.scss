@@ -15,6 +15,7 @@
 			}
 			.proname{width: 40%;}
 		}
+
 		.carContent{
 			overflow:hidden;
 			ul{
@@ -116,6 +117,87 @@
 			height: 154px;
 			text-align:center;
 			line-height: 154px;
+		}
+	}
+}
+
+#Goodsbanner{
+	margin-bottom:152px;
+	.container{
+		overflow:hidden;
+		h3{
+			margin:0;
+			font-size: 18px;
+			line-height: 38px;
+			width: 140px;
+			height: 38px;
+			text-align:center;
+			border:1px solid #ccc;
+			border-bottom:1px solid #fff;
+			
+		}
+		#bannerList{
+			width: 1500px;
+			height: 408px;
+			position: relative;
+			border:1px solid #ccc;
+			i{
+				width: 46px;
+				font-size: 46px;
+				position: absolute;
+			}
+			.fli{
+				left:0;
+				top:170px;
+			}
+			.fri{
+				right:0;
+				top:170px;
+			}
+			.screen{
+				display:block;
+				width: 1428px;
+				height: 408px;
+				overflow:hidden;
+				margin-left:40px;
+				.totalList{
+					position: absolute;
+					margin-left:40px;
+					left:0px;;
+					top:0;
+					ul{
+						width: 1428px;
+						height: 408px;
+						margin:0;
+						float:left;
+						overflow:hidden;
+						li{
+
+							overflow:hidden;
+							padding:40px 35px 0 35px;
+							width: 234px;
+							height: 408px;
+							text-align:center;
+							img{
+								width:165px;
+								height: 173px;
+							}
+							a{
+								display:block;
+								width: 164px;
+								font-size: 18px;
+								line-height: 26px;
+								text-decoration:none;
+								color:#777;
+							}
+							h4{
+								color:red;
+							}
+
+						}
+					}
+				}
+			}
 		}
 	}
 }
