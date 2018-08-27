@@ -1,0 +1,28 @@
+{
+  "name": "moxi",
+  "version": "1.0.0",
+  "description": "moxi",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RanderE/moxi.git"
+  },
+  "author": "east",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RanderE/moxi/issues"
+  },
+  "homepage": "https://github.com/RanderE/moxi#readme"
+}
