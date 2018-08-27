@@ -233,18 +233,21 @@ require(['config'],function(){
 	        let len = $('.totalList').children().length;
 
 		   	$('.totalList').css({
-		   		width: instance * len,
+		   		width: instance*len,
 		   		left: -instance
 		   	});
 
 		    $('.nextBtn').on('click', function(){
 
 		        index++;
-		    	$('.totalList').stop().animate({left: -instance * index}, 200, function(){
+		        console.log(len);
+		    	$('.totalList').stop().animate({left: -instance * index}, 400, function(){
 		            // 当滑动到最后(复制到最后的第一张图位置)，等动画完成之后，初始化整个图片滚动层容器的位置
-		            if( index == len - 1 ){
+		            if( index>=len - 1 ){
 		                index = 1;
-		                $('.totalList').css({left: -instance * index});
+		                $('.totalList').css({
+		                	left: -instance * index
+		                });
 		            }
 		        });
 		        
@@ -254,9 +257,9 @@ require(['config'],function(){
 		    $('.prevBtn').on('click', function(){
 
 		        index--;
-		        $('.totalList').stop().animate({left: -instance * index}, 200, function(){
+		        $('.totalList').stop().animate({left: -instance * index}, 400, function(){
 		            // 当滑动到前面(复制到最前面的最后一张图位置)，等动画完成之后，初始化整个图片滚动层容器的位置
-		            if( index == 0 ){
+		            if( index <= 0 ){
 		                index = len - 2;
 		                $('.totalList').css({
 		                	left: -instance*index,
@@ -272,7 +275,7 @@ require(['config'],function(){
 		        autoplay = setInterval(function(){
 
 		            
-		            $('.totalList').stop().animate({left: -instance * index}, 200, function(){
+		            $('.totalList').stop().animate({left: -instance * index}, 400, function(){
 		                if( index == len - 1 ){
 		                    index = 1;
 		                    $('.totalList').css({left: -instance * index});

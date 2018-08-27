@@ -227,7 +227,7 @@ require(['config'],function(){
 							alert('用户名或密码错误')
 							return false;
 						}else{
-							// window.location.href="success.html";
+							window.location.href="success.html";
 						}
 					}
 				})
